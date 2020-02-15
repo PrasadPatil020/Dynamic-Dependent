@@ -2,7 +2,7 @@
 session_start();
 include 'conn.php';
 
-if (($_SESSION['email'] != 'admin@admin.com') )
+if (($_SESSION['email'] != 'abc@mail.com') )
 {
  header("Location:index.php");
 }
